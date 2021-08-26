@@ -79,7 +79,7 @@ const AddDelList11 = () => {
   return (
     <div>
       <h1>Add and Delete List</h1>
-      <input type="text" onChange={onChagne}/>
+      <input type="text" onChange={onChagne} value={inputText}/>
       <button onClick={onClick}>ADD</button>
       <ul>
         <li>{nameList}</li>
